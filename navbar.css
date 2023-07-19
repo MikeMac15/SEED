@@ -1,0 +1,46 @@
+
+/* nav bar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 100px;
+    width: 180px;
+}
+
+header{
+    
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    display: flex; 
+     align-content: center;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #c06622a6;
+    transition: .3s;
+}
+.navbar a:hover:before {
+    width: 100%;
+    
+}

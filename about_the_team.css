@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.team{
+    /* display: flex; */
+    margin:auto;
+    width: 88vw;
+}
+.brenda img {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.image{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.brenda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutB {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 40px 40px;
+    background: rgb(239, 183, 111);
+    color: #fff;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+/* Shelley */
+.shelley img {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.image2{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+.shelley{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutS {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 40px 40px;
+    background: rgb(239, 183, 111);
+    color: #fff;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+
+.push-right{
+    opacity: 0;
+    transform: translateX(50vw);
+}
+.push-left{
+    opacity: 0;
+    transform: translateX(-50vw);
+}

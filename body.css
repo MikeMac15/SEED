@@ -1,0 +1,252 @@
+
+section.info{ 
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.mainstuff{
+    width: 100vw;
+    height: 600px;
+    background: fixed;
+    background-color: antiquewhite;  
+}
+    .card-container1 {
+        position: relative;
+        width: 18rem;
+        perspective: 200rem;
+        height: 484px;
+    }
+    .card-container1:hover .card-front1 {
+    transform: rotateY(180deg);
+    }
+    .card-container1:hover .card-back1 {
+        transform: rotateY(0deg);
+        
+    }
+    .card-back1{
+
+        transform: rotateY(-180deg);
+    }
+
+    #card1{
+        position: absolute;
+        height: 60%;
+        width: 100%;
+        transition: 0.9s;
+        backface-visibility: hidden;
+    }
+/* card2 ..................................*/
+.card-container2 {
+    position: relative;
+    width: 18rem;
+    perspective: 200rem;
+    height: 484px;
+}
+.card-container2:hover .card-front2 {
+ transform: rotateY(180deg);
+}
+.card-container2:hover .card-back2 {
+    transform: rotateY(0deg);
+   }
+.card-back2{
+
+    transform: rotateY(-180deg);
+}
+
+#card2{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    transition: 0.9s;
+    backface-visibility: hidden;
+}
+/* card3 ..................................*/
+
+    .card-container3 {
+        position: relative;
+        width: 18rem;
+        perspective: 200rem;
+        height: 484px;
+    }
+    .card-container3:hover .card-front3 {
+    transform: rotateY(180deg);
+    }
+    .card-container3:hover .card-back3 {
+        transform: rotateY(0deg);
+    }
+    .card-back3{
+
+        transform: rotateY(-180deg);
+    }
+
+    #card3{
+        position: absolute;
+        height: 60%;
+        width: 100%;
+        transition: 0.9s;
+        backface-visibility: hidden;
+    }
+
+    /* card4 ..................................*/
+
+    .card-container4 {
+        position: relative;
+        width: 18rem;
+        perspective: 200rem;
+        height: 484px;
+    }
+    .card-container4:hover .card-front4 {
+    transform: rotateY(180deg);
+    }
+    .card-container4:hover .card-back4 {
+        transform: rotateY(0deg);
+    }
+    .card-back4{
+
+        transform: rotateY(-180deg);
+    }
+
+    #card4{
+        position: absolute;
+        height: 60%;
+        width: 100%;
+        transition: 0.9s;
+        backface-visibility: hidden;
+    }
+    /* card5 ..................................*/
+
+    .card-container5 {
+        position: relative;
+        width: 18rem;
+        perspective: 200rem;
+        height: 484px;
+    }
+    .card-container5:hover .card-front5 {
+    transform: rotateY(180deg);
+    }
+    .card-container5:hover .card-back5 {
+        transform: rotateY(0deg);
+    }
+    .card-back5{
+
+        transform: rotateY(-180deg);
+    }
+    #card5{
+        position: absolute;
+        height: 60%;
+        width: 100%;
+        transition: 0.9s;
+        backface-visibility: hidden;
+    }
+/* card6 ..................................*/
+
+.card-container6 {
+    position: relative;
+    width: 18rem;
+    perspective: 200rem;
+    height: 484px;
+}
+.card-container6:hover .card-front6 {
+transform: rotateY(180deg);
+}
+.card-container6:hover .card-back6 {
+    transform: rotateY(0deg);
+}
+.card-back6{
+
+    transform: rotateY(-180deg);
+}
+#card6{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    transition: 0.9s;
+    backface-visibility: hidden;
+}
+/* card6 ..................................*/
+
+.card-container7 {
+    position: relative;
+    width: 18rem;
+    perspective: 200rem;
+    height: 484px;
+}
+.card-container7:hover .card-front7 {
+transform: rotateY(180deg);
+}
+.card-container7:hover .card-back7 {
+    transform: rotateY(0deg);
+}
+.card-back7{
+
+    transform: rotateY(-180deg);
+}
+#card7{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    transition: 0.9s;
+    backface-visibility: hidden;
+}
+
+
+
+
+
+.card-img-top{
+    height: 20vh;
+}
+
+/* #card1 img {
+    height: 20vh;
+}
+
+#card2 img {
+    height: 20vh;
+}
+
+#card3 img {
+    height: 20vh;
+}
+#card4 img {
+    height: 20vh;
+}
+#card5 img {
+    height: 20vh;
+}
+#card6 img {
+    height: 20vh;
+}
+#card7 img {
+    height: 20vh;
+} */
+
+/* .about {
+    width: 100vw;
+    height: 600px;
+    background: fixed;
+    background-color: antiquewhite;
+} */
+
+
+
+
+
+
+
+/* .collapse{
+    margin-right: 10vw;
+    border: 0cap;
+}
+
+h6{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.btn {
+    margin-left: 40vw;
+}
+span{
+    font-size: large;
+    font-weight: bold;
+} */
